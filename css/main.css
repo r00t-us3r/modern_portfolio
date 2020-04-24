@@ -236,7 +236,7 @@ main#home h1 {
     margin: auto;
     border-radius: 50%;
     border: #eece1a 3px solid;
-    max-width: 320px;
+    width: 320px;
 }
 
 .about-info .bio {
@@ -381,6 +381,7 @@ main#home h1 {
     }
     .menu-branding .portrait {
         background: url("../img/portrait.jpg");
+        background-size: contain;
         width: 150px;
         height: 150px;
     }
